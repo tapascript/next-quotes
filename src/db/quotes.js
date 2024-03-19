@@ -83,6 +83,11 @@ const quotes = [
     "id": crypto.randomUUID(),
     "text": "Today is the tomorrow we worried about yesterday.",
     "author":  "type.fit"
+  },
+  {
+    "id": crypto.randomUUID(),
+    "text": "It's hard to teach someone to have Patience in life… one has to have Patience to learn that. 🫰",
+    "author":  "Tapas Adhikary"
   }
 ];
 
