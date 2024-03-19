@@ -15,3 +15,8 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+
+dialog::backdrop {
+  background: rgba(0, 0, 52, 0.25);
+}

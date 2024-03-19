@@ -10,7 +10,7 @@ export const metadata = {
   description: "A Quote Feed created with Next.js",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, modal }) {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -19,6 +19,8 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </div> 
+        {modal}
+        <div id="modal-root-id" />
       </body>
     </html>
   );
