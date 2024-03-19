@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 
-@layer components {
-  .card {
-    @apply m-4 border border-gray-200 p-1 rounded-lg shadow-lg flex flex-col w-64 h-36 bg-gray-50 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
-  }
-}
-
 dialog::backdrop {
-  background: rgba(0, 0, 52, 0.25);
+  background: rgba(0, 0, 0, 0.95);
 }
