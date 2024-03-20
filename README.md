@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to Build a Shreable Modal Content with Intercepting Routes and Parallel Routes from the Next.js App Router?
 
-## Getting Started
+The source code in this repository has been used to teach a Next.js topic. 
 
-First, run the development server:
+## Please find the video here:
+
+<a href="https://youtu.be/v02LJJMz_sc" title="shreable-modal-content"><img src="./resources/shareable-modals.png" alt="main" height="auto" width="100%"/></a>
+
+## 🫶 Support
+Liked it? You can show your support with a STAR(⭐).
+
+### Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
+
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/tapascript/next-quotes?limit=15)](https://github.com/tapascript/next-quotes/stargazers)
+
+### Sponsor My Work
+
+I am an independent educator who creates meaningful projects to teach programming. You can support me further by [sponsoring me on GitHub](https://github.com/sponsors/atapas).
+
+
+## Running the app locally
+
+First, install the dependencies
+
+```bash
+npm install
+# or
+yarn
+#or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +38,21 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### The Quote List Page
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<a href="https://youtu.be/v02LJJMz_sc" title="quote-list"><img src="./resources/quote-list.png" alt="quote-list" height="auto" width="100%"/></a>
+
+### The Modal
+
+<a href="https://youtu.be/v02LJJMz_sc" title="quote-modal"><img src="./resources/quote-modal.png" alt="quote-modal" height="auto" width="100%"/></a>
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
+- [Full Stack With Next.js App Router](https://www.youtube.com/watch?v=VSB2h7mVhPg&list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) - A Next.js App Router Playlist
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
